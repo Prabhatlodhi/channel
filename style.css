@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.img_container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+#info{
+    padding: 20px;
+}
